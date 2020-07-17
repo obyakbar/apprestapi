@@ -3,8 +3,8 @@ var mysql = require('mysql');
 // membuat koneksi database
 const conn = mysql.createConnection({
     host:'localhost',
-    user:'',
-    database:'dbrestapi'
+    user:'root',
+    database:'restapi'
 });
 
 conn.connect((err) => {
