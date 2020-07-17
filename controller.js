@@ -5,4 +5,6 @@ var connection = require('./koneksi');
 
 exports.index = function(req, res) {
     response.ok("Aplikasi res api berjalan", res)
-}
+};
+
+// menampilkan semua data mhs
