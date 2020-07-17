@@ -7,7 +7,7 @@ const conn = mysql.createConnection({
     database:'dbrestapi'
 });
 
-con.connect((err) => {
+conn.connect((err) => {
     if(err) throw err;
     console.log('Mysqli terkoneksi');
 });
